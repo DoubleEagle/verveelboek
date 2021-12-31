@@ -1,0 +1,26 @@
+{
+  "en": {
+    "inside": "Do you want to stay inside?",
+    "not_messy": "Should you not have to clean up afterwards?",
+    "silent": "Should it be silent?",
+    "no_screen": "Should it not include any sort of screen?",
+    "that_mood": "Is everything aweful and are you feeling crappy and do you need to pull yourself out of it?",
+    "bound_by_openinghours": "Should the activity be doable regardless of opening hours?",
+    "free": "Should the activity be free?",
+    "no_need_to_buy": "Do you not want to go to the store?",
+    "physical_activity": "Should it be physically active?",
+    "lockdown_proof": "Do you need something lockdown-proof?"
+  },
+  "nl": {
+    "inside": "Wil je per se binnen blijven?",
+    "not_messy": "Wil je niet hoeven op te ruimen naderhand?",
+    "silent": "Moet het stil zijn?",
+    "no_screen": "Wil je per se niet achter een schermpje zitten?",
+    "that_mood": "Voel je je kut en moet je jezelf daaruit slepen?",
+    "bound_by_openinghours": "Moet de activiteit zowel binnen als buiten openingstijden te doen kunnen zijn?",
+    "free": "Moet het gratis zijn?",
+    "no_need_to_buy": "Wil je niks meer in huis hoeven halen hiervoor?",
+    "physical_activity": "Wil je een fysiek inspannende activiteit?",
+    "lockdown_proof": "Moet je iets lockdown-proofs hebben?"
+  }
+}
