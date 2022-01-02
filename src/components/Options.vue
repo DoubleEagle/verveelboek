@@ -45,15 +45,19 @@
             }
         },
         mounted() {
-            window.addEventListener('keydown', (e)=> {
+            window.addEventListener('keydown', this.keydownHandler)
+        },
+        unmounted() {
+            window.removeEventListener('keydown', this.keydownHandler)
+        },
+        methods: {
+            keydownHandler(e) {
                 if(e.key === 'ArrowLeft') {
                     this.handle_question_answer('yes');
                 } else if (e.key === 'ArrowRight') {
                     this.handle_question_answer('skip');
                 }
-            })
-        },
-        methods: {
+            },
             get_question: function() {
                 var question_options = questions[this.languages[this.current_language_id]]//.filter(question => this.already_seen.contains(question));
                 this.already_seen.forEach(x => delete question_options[x]);
